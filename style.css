@@ -1,0 +1,104 @@
+:root {
+    --bgc: #00330d;
+    --divbg: whitesmoke;
+    --textColor: brown;
+}
+
+body {
+    background-color: var(--bgc);
+    font-family: sans-serif;
+    color: var(--textColor)
+}
+
+.navbar {
+    background-color: whitesmoke;
+    width: 75%;
+    height: 75px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.navbar img {
+    padding: 10px 10px 10px 10px;
+}
+.navlink {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    font-size: x-large;
+}
+.navlink a {
+    text-decoration: none;
+}
+.navlink a, .navlink a:visited {
+    color: brown;
+}
+.navlink a:hover {
+    color: red;
+}
+.contentMain {
+    margin-top: 50px;
+    margin: auto;
+    width: 75%;
+    background-color: var(--divbg);
+    height: 100vh;
+}
+#logoMain {
+    padding-top: 30px;
+    height: 55%;
+    margin: auto;
+    display: block;
+}
+.textCentered {
+    padding-top: 30px;
+    text-align: center;
+    line-height: 90%;
+}
+.bigText {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    text-align: left;
+    font-size: larger;
+}
+.reviewCite {
+    display: block;
+    float: right;
+}
+.reviewBlock {
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: larger;
+}
+.reviewBlock p {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+.contentMain h1 {
+    text-align: center;
+}
+.navbarHome {
+    background-color: whitesmoke;
+    width: 75%;
+    height: 75px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#logoAbout {
+    padding: 30px;
+    height: 40%;
+    margin: auto;
+    float: right;
+}
+footer p {
+    font-size: xx-small;
+    color: whitesmoke;
+    text-align: center;
+}
