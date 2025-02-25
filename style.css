@@ -43,13 +43,14 @@ body {
     margin: auto;
     width: 75%;
     background-color: var(--divbg);
-    height: 100vh;
+    height: fit-content;
 }
 #logoMain {
     padding-top: 30px;
     height: 55%;
     margin: auto;
     display: block;
+    width: 400px;
 }
 .textCentered {
     padding-top: 30px;
@@ -60,23 +61,9 @@ body {
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 20px;
-    text-align: left;
+    text-align: center;
     font-size: larger;
-}
-.reviewCite {
-    display: block;
-    float: right;
-}
-.reviewBlock {
-    margin: auto;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: larger;
-}
-.reviewBlock p {
-    border-bottom: 1px solid lightgray;
-    padding: 10px;
+    line-height: 140%;
 }
 .contentMain h1 {
     text-align: center;
@@ -90,6 +77,7 @@ body {
     grid-template-columns: 33.3% 33.3% 33.3%;
     margin-top: 10px;
     margin-bottom: 20px;
+    padding-bottom: 50px;
 }
 #logoAbout {
     padding: 30px;
@@ -101,4 +89,30 @@ footer p {
     font-size: xx-small;
     color: whitesmoke;
     text-align: center;
+}
+.pictureGrid {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 10px;
+}
+.pictureGrid img {
+    padding: 20px
+}
+.reviewBox {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-size: x-large;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.reviewBox em {
+    font-size: medium;
+}
+.bigHead {
+    padding-top: 40px;
+    font-style: italic;
 }
