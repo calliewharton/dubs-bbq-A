@@ -44,6 +44,7 @@ body {
     width: 75%;
     background-color: var(--divbg);
     height: fit-content;
+    padding-bottom: 20px;
 }
 #logoMain {
     padding-top: 30px;
@@ -119,4 +120,18 @@ footer p {
 }
 .reviewBox p {
     padding-bottom: 5px;
+}
+.listing {
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+.listing h1 {
+    text-align: left;
+}
+.listing h2 {
+    text-decoration: underline;
+}
+#productImgR {
+    padding: 30px;
 }
